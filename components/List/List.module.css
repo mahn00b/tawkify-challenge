@@ -1,0 +1,28 @@
+.List {
+ margin-left: 1rem;
+ list-style: none;
+}
+
+.ListItem::before {
+  content: "\2022";
+  color: #666464;
+  font-weight: bold;
+  display: inline-block;
+  width: 1rem;
+  margin-left: -1rem;
+}
+
+.content {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+
+
+  color: #666464;
+
+  padding: .3rem;
+}
+
+.close {
+  font-size: .8rem;
+}
